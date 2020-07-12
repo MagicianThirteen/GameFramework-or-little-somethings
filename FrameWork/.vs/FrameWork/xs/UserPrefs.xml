@@ -1,0 +1,31 @@
+﻿<Properties StartupConfiguration="{904D1D99-857D-124D-BEF8-2131A655FE9D}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/ProjectBase/Base/BaseManager.cs">
+    <Files>
+      <File FileName="Assets/Scripts/ProjectBase/Base/BaseManager.cs" Line="9" Column="24" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="FrameWork" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Scripts" expanded="True">
+                <Node name="ProjectBase" expanded="True">
+                  <Node name="Base" expanded="True">
+                    <Node name="BaseManager.cs" selected="True" />
+                  </Node>
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="6ff51092-6f92-4c87-83a7-7ef0cdf7ca12" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
