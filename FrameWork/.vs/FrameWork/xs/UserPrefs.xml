@@ -1,8 +1,9 @@
 ﻿<Properties StartupConfiguration="{904D1D99-857D-124D-BEF8-2131A655FE9D}|">
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/ProjectBase/Pool/PoolMgr.cs">
     <Files>
-      <File FileName="Assets/Scripts/ProjectBase/Base/BaseManager.cs" Line="9" Column="24" />
-      <File FileName="Assets/Scripts/ProjectBase/Pool/PoolMgr.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/ProjectBase/Base/BaseManager.cs" Line="13" Column="3" />
+      <File FileName="Assets/Scripts/ProjectBase/Pool/PoolMgr.cs" Line="16" Column="103" />
+      <File FileName="Assets/Scripts/Test/test.cs" Line="22" Column="48" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -16,6 +17,7 @@
                     <Node name="PoolMgr.cs" selected="True" />
                   </Node>
                 </Node>
+                <Node name="Test" expanded="True" />
               </Node>
             </Node>
           </Node>
@@ -25,7 +27,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="048433a6-9014-4e4b-97db-8c8945890b23" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="eaf9922a-6b07-4b11-afae-802b36b6fc34" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

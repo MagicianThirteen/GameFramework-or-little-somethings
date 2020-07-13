@@ -65,6 +65,7 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\ProjectBase\Base\BaseManager.cs" />
     <Compile Include="Assets\Scripts\ProjectBase\Pool\PoolMgr.cs" />
+    <Compile Include="Assets\Scripts\Test\test.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>/Users/Magician/Documents/GitHub/小框架，小功能/FrameWork/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
