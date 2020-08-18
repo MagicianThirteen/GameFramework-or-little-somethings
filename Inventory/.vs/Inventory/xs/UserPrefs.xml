@@ -1,7 +1,8 @@
 ﻿<Properties StartupConfiguration="{CE9B2838-BAA5-58C9-FABF-B8A8DCBCAB94}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Game/Main/Main.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Game/GameData/GameDataMgr.cs">
     <Files>
       <File FileName="Assets/Scripts/Game/Main/Main.cs" Line="10" Column="9" />
+      <File FileName="Assets/Scripts/Game/GameData/GameDataMgr.cs" Line="44" Column="25" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />

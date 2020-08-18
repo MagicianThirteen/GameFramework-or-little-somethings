@@ -65,8 +65,10 @@
   <ItemGroup>
     <Compile Include="Assets\FantasyIconsPackFree\Demo\IconViewer.cs" />
     <Compile Include="Assets\Scripts\Game\Bag\BagPanel.cs" />
+    <Compile Include="Assets\Scripts\Game\GameData\GameDataMgr.cs" />
     <Compile Include="Assets\Scripts\Game\Main\Main.cs" />
     <Compile Include="Assets\Scripts\Game\Main\MainPanel.cs" />
+    <None Include="Assets\Resources\Json\itemInfo.txt" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>/Users/Magician/Documents/GitHub/小框架，小功能/Inventory/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
