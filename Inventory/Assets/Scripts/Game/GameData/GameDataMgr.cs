@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class GameDataMgr
 {
+    //最终用字典存储items的信息
+    private Dictionary<int, Item> itemInfos = new Dictionary<int, Item>();
     private static GameDataMgr _instance;
     public static GameDataMgr Instance
     {
@@ -17,7 +19,40 @@ public class GameDataMgr
             return _instance;
         }
     }
-    
+
+    /// <summary>
+    /// 加载资源里的json文件
+    /// </summary>
+    public void Init()
+    {
+        string info = Resources.Load<TextAsset>("Json/itemInfo").text;
+        Debug.Log(info);
+        //根据json文件，解析成对应的数据结构，并存储
+        Items items = JsonUtility.FromJson<Items>(info);
+        Debug.Log(items.info.Count);
+        //将解析好的list添加进字典中
+        for(int i = 0; i < items.info.Count; i++)
+        {
+            itemInfos.Add(items.info[i].id, items.info[i]);
+        }
+    }
+
+    /// <summary>
+    /// 通过字典里的id获取具体道具信息
+    /// </summary>
+    /// <param name="id">道具id</param>
+    /// <returns></returns>
+    public Item GetItemInfo(int id)
+    {
+        if (itemInfos.ContainsKey(id))
+        {
+            return itemInfos[id];
+        }
+        return null;
+        
+    }
+
+
 }
 
 /// <summary>
