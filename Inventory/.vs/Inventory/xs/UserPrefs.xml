@@ -2,12 +2,12 @@
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Game/GameData/GameDataMgr.cs">
     <Files>
       <File FileName="Assets/Scripts/Game/Main/Main.cs" Line="11" Column="11" />
-      <File FileName="Assets/Scripts/Game/GameData/GameDataMgr.cs" Line="46" Column="1" />
+      <File FileName="Assets/Scripts/Game/GameData/GameDataMgr.cs" Line="54" Column="25" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="569d5e1d-5352-4861-82c8-8df36c338aac" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="4a7ce43b-1767-400e-a537-fb56697b7451" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

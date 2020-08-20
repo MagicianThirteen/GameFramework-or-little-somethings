@@ -47,9 +47,12 @@ public class GameDataMgr
         }
         else
         {
-            //没有这个文件就创建这个文件
+            //创建一个玩家数据对象
+            playerInfo = new player();
             //将玩家数据转成json字符串
-            //将json
+            string playerJson=JsonUtility.ToJson(playerInfo);
+            //将json字符串打印
+            Debug.Log(playerJson);
         }
     }
 
@@ -96,7 +99,7 @@ public class player
         gem = 0;
         pro = 99;
         items = new List<ItemInfo>() { new ItemInfo() { id = 1, num = 1} };
-        equips = new List<ItemInfo>() { new ItemInfo() { id = 2, num = 3 }};
+        equips = new List<ItemInfo>() { new ItemInfo() { id = 3, num = 3 }};
         gems = new List<ItemInfo>();
 
     }
