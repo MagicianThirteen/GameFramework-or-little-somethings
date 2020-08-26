@@ -5,10 +5,11 @@ using System.IO;
 
 public class GameDataMgr
 {
-    //用来存储玩家数据的路径
-    private string PlayerInfo_url = Application.persistentDataPath + "/PlayerInfo.txt";
-    //玩家数据对象
-    public player playerInfo;
+    //用来存储玩家信息文件的路径
+    private static string playerInfo_url = Application.persistentDataPath + "/PlayerInfo.txt";
+    //玩家对象
+    public static player playerInfo;
+ 
     //最终用字典存储items的信息
     private Dictionary<int, Item> itemInfos = new Dictionary<int, Item>();
     private static GameDataMgr _instance;
@@ -26,7 +27,7 @@ public class GameDataMgr
     }
 
     /// <summary>
-    /// 加载资源里的道具json文件
+    /// 初始化道具信息和玩家信息
     /// </summary>
     public void Init()
     {
@@ -40,20 +41,37 @@ public class GameDataMgr
         {
             itemInfos.Add(items.info[i].id, items.info[i]);
         }
-        //从文件中初始化 玩家信息
-        if (File.Exists(PlayerInfo_url))
-        {
 
+        //从本地文件读取玩家信息，如果没有就创建
+        if (File.Exists(playerInfo_url))
+        {
+            //读取文件的所有字节数组，转换成字符串json，然后还原成player对象
+            byte[] bytes = File.ReadAllBytes(playerInfo_url);
+            string json = System.Text.Encoding.UTF8.GetString(bytes);
+            playerInfo = JsonUtility.FromJson<player>(json);
+            //测试有没有读对，打印下玩家名字
+            Debug.Log(playerInfo.name);
+            
         }
         else
         {
-            //创建一个玩家数据对象
+            //没有这个文件，就先创建player对象(对象的构造函数会给玩家信息赋值一个初始值，然后转成json字符串，通过字节数组存入文件中
             playerInfo = new player();
-            //将玩家数据转成json字符串
-            string playerJson=JsonUtility.ToJson(playerInfo);
-            //将json字符串打印
-            Debug.Log(playerJson);
+            SavePlayerInfo();
+            //测试打印下这个路径，查看下文件有没有写入成功
+            Debug.Log(playerInfo_url);
+
         }
+        
+    }
+
+    /// <summary>
+    /// 可以把存储json文件的部分提取成一个公共方法，方便更新玩家信息
+    /// </summary>
+    public static void SavePlayerInfo()
+    {
+        string json = JsonUtility.ToJson(playerInfo);
+        File.WriteAllBytes(playerInfo_url, System.Text.Encoding.UTF8.GetBytes(json));
     }
 
     /// <summary>
@@ -88,22 +106,21 @@ public class player
     public List<ItemInfo> equips;
     public List<ItemInfo> gems;
 
-    /// <summary>
-    /// 构造函数，给玩家初始数据赋值
-    /// </summary>
-    public player()
-    {
+    //给玩家构造函数初始化一个玩家信息
+    public player(){
         name = "root";
         lev = 99;
-        money = 9999;
+        money = 999;
         gem = 0;
         pro = 99;
-        items = new List<ItemInfo>() { new ItemInfo() { id = 1, num = 1} };
-        equips = new List<ItemInfo>() { new ItemInfo() { id = 3, num = 3 }};
-        gems = new List<ItemInfo>();
+        items = new List<ItemInfo>() { new ItemInfo() {id= 2,num=1} };
+        equips = new List<ItemInfo>() { new ItemInfo() { id = 1, num = 3 } };
+        gems = new List<ItemInfo>() {  };
 
     }
 
+
+   
 }
 
 
