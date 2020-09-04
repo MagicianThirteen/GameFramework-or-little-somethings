@@ -31,7 +31,7 @@ public class GameManager : BaseManager<GameManager>
 /// <summary>
 /// 测试
 /// </summary>
-public class test
+public class testsingle
 {
     void main()
     {
