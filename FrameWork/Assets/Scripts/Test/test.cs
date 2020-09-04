@@ -13,13 +13,6 @@ public class test : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetMouseButtonDown(0))
-        {
-            PoolMgr.GetInstance().GetObj("Test/Cube");
-        }
-        if (Input.GetMouseButtonDown(1))
-        {
-            PoolMgr.GetInstance().GetObj("Test/Sphere");
-        }
+       
     }
 }
