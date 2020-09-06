@@ -1,17 +1,16 @@
 ﻿<Properties StartupConfiguration="{904D1D99-857D-124D-BEF8-2131A655FE9D}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/ProjectBase/Pool/PoolMgr.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Test/TestEvent/Ohter.cs">
     <Files>
-      <File FileName="Assets/Scripts/ProjectBase/Base/BaseManager.cs" Line="34" Column="24" />
-      <File FileName="Assets/Scripts/ProjectBase/Pool/PoolMgr.cs" Line="9" Column="35" />
-      <File FileName="Assets/Scripts/Test/test.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/Test/DelayPush.cs" />
-      <File FileName="Assets/Scripts/Test/TestCamera.cs" />
-      <File FileName="Assets/Scripts/Test/TestDrag.cs" />
+      <File FileName="Assets/Scripts/ProjectBase/Event/EventCenter.cs" Line="13" Column="91" />
+      <File FileName="Assets/Scripts/Test/TestEvent/TestEvent.cs" Line="8" Column="29" />
+      <File FileName="Assets/Scripts/Test/TestEvent/Player.cs" />
+      <File FileName="Assets/Scripts/Test/TestEvent/Task.cs" />
+      <File FileName="Assets/Scripts/Test/TestEvent/Ohter.cs" Line="18" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="112bc6c1-0374-41bb-b658-02dc9b1b18d5" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="d7d6c2b2-e9cb-42c2-a8a6-81b4bafbdd3b" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
