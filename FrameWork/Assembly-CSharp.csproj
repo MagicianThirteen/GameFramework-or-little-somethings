@@ -65,11 +65,14 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\ProjectBase\Base\BaseManager.cs" />
     <Compile Include="Assets\Scripts\ProjectBase\Event\EventCenter.cs" />
+    <Compile Include="Assets\Scripts\ProjectBase\Input\InputMgr.cs" />
     <Compile Include="Assets\Scripts\ProjectBase\Mono\MonoController.cs" />
     <Compile Include="Assets\Scripts\ProjectBase\Mono\MonoMgr.cs" />
     <Compile Include="Assets\Scripts\ProjectBase\Pool\PoolMgr.cs" />
+    <Compile Include="Assets\Scripts\ProjectBase\Res\ResMgr.cs" />
     <Compile Include="Assets\Scripts\ProjectBase\Scenes\ScenesMgr.cs" />
     <Compile Include="Assets\Scripts\Test\DelayPush.cs" />
+    <Compile Include="Assets\Scripts\Test\InputTest.cs" />
     <Compile Include="Assets\Scripts\Test\test.cs" />
     <Compile Include="Assets\Scripts\Test\TestCamera.cs" />
     <Compile Include="Assets\Scripts\Test\TestDrag.cs" />
@@ -77,6 +80,7 @@
     <Compile Include="Assets\Scripts\Test\TestEvent\Player.cs" />
     <Compile Include="Assets\Scripts\Test\TestEvent\Task.cs" />
     <Compile Include="Assets\Scripts\Test\TestEvent\TestEvent.cs" />
+    <Compile Include="Assets\Scripts\Test\TestRes.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>/Users/Magician/Documents/GitHub/小框架，小功能/FrameWork/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>

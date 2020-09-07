@@ -1,8 +1,12 @@
 ﻿<Properties StartupConfiguration="{904D1D99-857D-124D-BEF8-2131A655FE9D}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/ProjectBase/Base/BaseManager.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Test/InputTest.cs">
     <Files>
-      <File FileName="Assets/Scripts/ProjectBase/Scenes/ScenesMgr.cs" Line="5" Column="28" />
+      <File FileName="Assets/Scripts/ProjectBase/Scenes/ScenesMgr.cs" Line="41" Column="27" />
       <File FileName="Assets/Scripts/ProjectBase/Base/BaseManager.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/ProjectBase/Res/ResMgr.cs" Line="34" Column="83" />
+      <File FileName="Assets/Scripts/Test/TestRes.cs" Line="26" Column="60" />
+      <File FileName="Assets/Scripts/ProjectBase/Input/InputMgr.cs" Line="26" Column="20" />
+      <File FileName="Assets/Scripts/Test/InputTest.cs" Line="10" Column="30" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -12,10 +16,13 @@
               <Node name="Resources" expanded="True" />
               <Node name="Scripts" expanded="True">
                 <Node name="ProjectBase" expanded="True">
-                  <Node name="Base" expanded="True">
-                    <Node name="BaseManager.cs" selected="True" />
-                  </Node>
+                  <Node name="Base" expanded="True" />
+                  <Node name="Input" expanded="True" />
+                  <Node name="Res" expanded="True" />
                   <Node name="Scenes" expanded="True" />
+                </Node>
+                <Node name="Test" expanded="True">
+                  <Node name="InputTest.cs" selected="True" />
                 </Node>
               </Node>
             </Node>
