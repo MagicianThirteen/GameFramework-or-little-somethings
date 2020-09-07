@@ -1,16 +1,18 @@
 ﻿<Properties StartupConfiguration="{904D1D99-857D-124D-BEF8-2131A655FE9D}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Test/TestEvent/Ohter.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/ProjectBase/Mono/MonoMgr.cs">
     <Files>
       <File FileName="Assets/Scripts/ProjectBase/Event/EventCenter.cs" Line="68" Column="24" />
-      <File FileName="Assets/Scripts/Test/TestEvent/TestEvent.cs" Line="22" Column="1" />
-      <File FileName="Assets/Scripts/Test/TestEvent/Player.cs" Line="8" Column="53" />
-      <File FileName="Assets/Scripts/Test/TestEvent/Task.cs" Line="17" Column="11" />
+      <File FileName="Assets/Scripts/Test/TestEvent/TestEvent.cs" />
+      <File FileName="Assets/Scripts/Test/TestEvent/Player.cs" />
+      <File FileName="Assets/Scripts/Test/TestEvent/Task.cs" />
       <File FileName="Assets/Scripts/Test/TestEvent/Ohter.cs" Line="19" Column="7" />
+      <File FileName="Assets/Scripts/ProjectBase/Mono/MonoController.cs" Line="41" Column="28" />
+      <File FileName="Assets/Scripts/ProjectBase/Mono/MonoMgr.cs" Line="6" Column="9" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="d7d6c2b2-e9cb-42c2-a8a6-81b4bafbdd3b" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="81428817-8e40-46ea-a338-659e4db2fb75" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
