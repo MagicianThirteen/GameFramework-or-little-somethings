@@ -5,8 +5,8 @@
       <File FileName="Assets/Scripts/ProjectBase/Base/BaseManager.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/ProjectBase/Res/ResMgr.cs" Line="34" Column="83" />
       <File FileName="Assets/Scripts/Test/TestRes.cs" Line="26" Column="60" />
-      <File FileName="Assets/Scripts/ProjectBase/Input/InputMgr.cs" Line="26" Column="20" />
-      <File FileName="Assets/Scripts/Test/InputTest.cs" Line="10" Column="30" />
+      <File FileName="Assets/Scripts/ProjectBase/Input/InputMgr.cs" Line="30" Column="33" />
+      <File FileName="Assets/Scripts/Test/InputTest.cs" Line="17" Column="37" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
