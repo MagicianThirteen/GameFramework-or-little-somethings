@@ -14,6 +14,8 @@ public class TestEvent : MonoBehaviour
         //测试公共类
         TestMonoController t = new TestMonoController();
         MonoMgr.GetInstance().AddUpdateEventsListener(t.Update);
+        
+
     }
 
    void Dead(object info)
@@ -25,8 +27,19 @@ public class TestEvent : MonoBehaviour
 
 public class TestMonoController
 {
+    public TestMonoController()
+    {
+        MonoMgr.GetInstance().StartCoroutine(testCoroutine());
+    }
     public void Update()
     {
         Debug.Log("测试公共类成功");
     }
+    IEnumerator testCoroutine()
+    {
+        yield return new WaitForSeconds(1f);
+        Debug.Log("测试协程成功");
+    }
+
+
 }

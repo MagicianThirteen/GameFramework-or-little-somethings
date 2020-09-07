@@ -68,6 +68,7 @@
     <Compile Include="Assets\Scripts\ProjectBase\Mono\MonoController.cs" />
     <Compile Include="Assets\Scripts\ProjectBase\Mono\MonoMgr.cs" />
     <Compile Include="Assets\Scripts\ProjectBase\Pool\PoolMgr.cs" />
+    <Compile Include="Assets\Scripts\ProjectBase\Scenes\ScenesMgr.cs" />
     <Compile Include="Assets\Scripts\Test\DelayPush.cs" />
     <Compile Include="Assets\Scripts\Test\test.cs" />
     <Compile Include="Assets\Scripts\Test\TestCamera.cs" />

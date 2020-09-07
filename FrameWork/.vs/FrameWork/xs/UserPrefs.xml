@@ -1,14 +1,28 @@
 ﻿<Properties StartupConfiguration="{904D1D99-857D-124D-BEF8-2131A655FE9D}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/ProjectBase/Mono/MonoMgr.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/ProjectBase/Base/BaseManager.cs">
     <Files>
-      <File FileName="Assets/Scripts/ProjectBase/Event/EventCenter.cs" Line="68" Column="24" />
-      <File FileName="Assets/Scripts/Test/TestEvent/TestEvent.cs" />
-      <File FileName="Assets/Scripts/Test/TestEvent/Player.cs" />
-      <File FileName="Assets/Scripts/Test/TestEvent/Task.cs" />
-      <File FileName="Assets/Scripts/Test/TestEvent/Ohter.cs" Line="19" Column="7" />
-      <File FileName="Assets/Scripts/ProjectBase/Mono/MonoController.cs" Line="41" Column="28" />
-      <File FileName="Assets/Scripts/ProjectBase/Mono/MonoMgr.cs" Line="6" Column="9" />
+      <File FileName="Assets/Scripts/ProjectBase/Scenes/ScenesMgr.cs" Line="5" Column="28" />
+      <File FileName="Assets/Scripts/ProjectBase/Base/BaseManager.cs" Line="1" Column="1" />
     </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="FrameWork" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Resources" expanded="True" />
+              <Node name="Scripts" expanded="True">
+                <Node name="ProjectBase" expanded="True">
+                  <Node name="Base" expanded="True">
+                    <Node name="BaseManager.cs" selected="True" />
+                  </Node>
+                  <Node name="Scenes" expanded="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
