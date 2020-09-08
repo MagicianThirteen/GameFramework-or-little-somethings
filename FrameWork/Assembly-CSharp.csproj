@@ -72,8 +72,12 @@
     <Compile Include="Assets\Scripts\ProjectBase\Pool\PoolMgr.cs" />
     <Compile Include="Assets\Scripts\ProjectBase\Res\ResMgr.cs" />
     <Compile Include="Assets\Scripts\ProjectBase\Scenes\ScenesMgr.cs" />
+    <Compile Include="Assets\Scripts\ProjectBase\UI\BasePanel.cs" />
+    <Compile Include="Assets\Scripts\ProjectBase\UI\UIManager.cs" />
     <Compile Include="Assets\Scripts\Test\DelayPush.cs" />
     <Compile Include="Assets\Scripts\Test\InputTest.cs" />
+    <Compile Include="Assets\Scripts\Test\PanelTest.cs" />
+    <Compile Include="Assets\Scripts\Test\TesPanel.cs" />
     <Compile Include="Assets\Scripts\Test\test.cs" />
     <Compile Include="Assets\Scripts\Test\TestCamera.cs" />
     <Compile Include="Assets\Scripts\Test\TestDrag.cs" />
