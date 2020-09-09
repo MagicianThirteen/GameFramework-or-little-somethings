@@ -10,7 +10,7 @@ public class InputTest : MonoBehaviour
         //开启输入
         InputMgr.GetInstance().InputOpenOrNotCheck(true);
         //按下键的处理
-        EventCenter.GetInstance().AddEventListener("EnterKey", EnterKey);
+        EventCenter.GetInstance().AddEventListener<InputTest>("EnterKey", EnterKey);
     }
 
 

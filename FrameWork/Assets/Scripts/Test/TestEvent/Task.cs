@@ -8,12 +8,12 @@ public class Task : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        EventCenter.GetInstance().AddEventListener("MosterDead", TaskComplete);
+        EventCenter.GetInstance().AddEventListener<TestEvent>("MosterDead", TaskComplete);
     }
 
-    private void TaskComplete(object info)
+    private void TaskComplete(TestEvent info)
     {
-        Debug.Log("杀死怪物后，任务完成" + (info as TestEvent).MosterName);
+        Debug.Log("杀死怪物后，任务完成" + info.MosterName);
         //throw new NotImplementedException();
     }
 

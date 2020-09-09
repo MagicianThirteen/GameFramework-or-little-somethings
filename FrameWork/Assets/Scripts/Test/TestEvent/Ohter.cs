@@ -8,12 +8,12 @@ public class Ohter : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        EventCenter.GetInstance().AddEventListener("MosterDead", DoSomethingOhters);
+        EventCenter.GetInstance().AddEventListener<TestEvent>("MosterDead", DoSomethingOhters);
     }
 
-    private void DoSomethingOhters(object info)
+    private void DoSomethingOhters(TestEvent info)
     {
-        Debug.Log("杀死怪物后，还要做些别的" + (info as TestEvent).MosterName);
+        Debug.Log("杀死怪物后，还要做些别的" + info.MosterName);
     
        // throw new NotImplementedException();
       

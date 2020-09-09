@@ -18,7 +18,7 @@ public class TestEvent : MonoBehaviour
 
     }
 
-   void Dead(object info)
+   void Dead(TestEvent info)
     {
         //触发，分发怪物死亡事件
         EventCenter.GetInstance().EventTrigger("MosterDead", info);

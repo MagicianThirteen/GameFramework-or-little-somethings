@@ -21,11 +21,15 @@ public class test : MonoBehaviour
         if (Input.GetMouseButtonDown(0))
         {
             
-            PoolMgr.GetInstance().GetObj("Test/Cube");
+            PoolMgr.GetInstance().GetObj("Test/Cube",(o)=> {
+                Debug.Log("create cube");
+            });
         }
         if (Input.GetMouseButtonDown(1))
         {
-            PoolMgr.GetInstance().GetObj("Test/Sphere");
+            PoolMgr.GetInstance().GetObj("Test/Sphere",(o)=> {
+                Debug.Log("create sphere");
+            });
         }
     }
 }

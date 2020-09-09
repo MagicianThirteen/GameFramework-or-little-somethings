@@ -1,8 +1,17 @@
 ﻿<Properties StartupConfiguration="{904D1D99-857D-124D-BEF8-2131A655FE9D}|">
-  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Test/InputTest.cs">
+    <Files>
+      <File FileName="Assets/Scripts/ProjectBase/Event/EventCenter.cs" Line="56" Column="37" />
+      <File FileName="Assets/Scripts/Test/TestEvent/Task.cs" Line="16" Column="43" />
+      <File FileName="Assets/Scripts/Test/TestEvent/Ohter.cs" Line="16" Column="40" />
+      <File FileName="Assets/Scripts/Test/TestEvent/TestEvent.cs" Line="8" Column="19" />
+      <File FileName="Assets/Scripts/Test/TestEvent/Player.cs" Line="14" Column="47" />
+      <File FileName="Assets/Scripts/Test/InputTest.cs" Line="13" Column="62" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="736d1d47-7af2-45c5-a177-ef64f2599380" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="139e1a06-b50a-407b-9c95-7b508ddeead4" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

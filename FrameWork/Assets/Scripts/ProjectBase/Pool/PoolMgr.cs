@@ -1,8 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
-
+using UnityEngine.Events;
 
 public class PollData
 {
@@ -70,30 +69,38 @@ public class PoolMgr :BaseManager<PoolMgr>
     /// </summary>
     /// <param name="name">衣柜名字</param>
     /// <returns>游戏物体</returns>
-    public GameObject GetObj(string name)
+    public void GetObj(string name,UnityAction<GameObject> callBack)
     {
         
-        GameObject obj = null;
+        
 
         if (poolDic.ContainsKey(name))
         {
 
-            obj=poolDic[name].Get();
+            
+            callBack(poolDic[name].Get());
            
         }
         else
         {
+            //使用异步加载方式加载资源
+            ResMgr.GetInstance().LoadResAsync<GameObject>(name, (o) => {
 
-            obj = GameObject.Instantiate(Resources.Load<GameObject>(name));
+                o.name = name;
+                o.SetActive(true);
+                callBack(o);
+            });
+
+            //obj = GameObject.Instantiate(Resources.Load<GameObject>(name));
             //obj = Resources.Load<GameObject>(name);
             //GameObject.Instantiate(obj);
-            obj.name = name;//这里不要用它的原始名字原始名字是cube（clone），这里用路径名作为游戏物体的名字，这样放到缓存池中也好对应名字放。
+            //obj.name = name;//这里不要用它的原始名字原始名字是cube（clone），这里用路径名作为游戏物体的名字，这样放到缓存池中也好对应名字放。
                             //这里的名字会变成Test/Cube(Clone)
 
-            obj.SetActive(true);
+            //obj.SetActive(true);
 
         }
-        return obj;
+       
     }
 
     /// <summary>
