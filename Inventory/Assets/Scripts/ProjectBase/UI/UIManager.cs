@@ -50,7 +50,7 @@ public class UIManager : BaseManager<UIManager>
    /// </summary>
    /// <param name="panelName">面板名字</param>
    /// <param name="layer">面板层级</param>
-    public void ShowPanel<T>(string panelName,UI_Layer layer,UnityAction<T> callback=null)where T:BasePanel
+    public void ShowPanel<T>(string panelName,UI_Layer layer=UI_Layer.mid,UnityAction<T> callback=null)where T:BasePanel
     {
         ResMgr.GetInstance().LoadResAsync<GameObject>("UI/" + panelName, (obj) => {
 

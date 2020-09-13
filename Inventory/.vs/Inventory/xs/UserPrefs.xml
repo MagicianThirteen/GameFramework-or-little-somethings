@@ -1,9 +1,12 @@
 ﻿<Properties StartupConfiguration="{CE9B2838-BAA5-58C9-FABF-B8A8DCBCAB94}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Game/Main/MainPanel.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Game/Main/Main.cs">
     <Files>
-      <File FileName="Assets/Scripts/Game/Main/Main.cs" Line="11" Column="11" />
+      <File FileName="Assets/Scripts/Game/Main/Main.cs" Line="5" Column="34" />
       <File FileName="Assets/Scripts/Game/GameData/GameDataMgr.cs" Line="30" Column="21" />
-      <File FileName="Assets/Scripts/Game/Main/MainPanel.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Game/Main/MainPanel.cs" Line="6" Column="30" />
+      <File FileName="Assets/Scripts/Game/Bag/BagPanel.cs" Line="4" Column="22" />
+      <File FileName="Assets/Scripts/ProjectBase/UI/UIManager.cs" Line="53" Column="17" />
+      <File FileName="Assets/Scripts/ProjectBase/UI/BasePanel.cs" Line="11" Column="14" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />

@@ -8,12 +8,7 @@ public class Main : MonoBehaviour
     void Start()
     {
         GameDataMgr.Instance.Init();
-        //Debug.Log(GameDataMgr.Instance.GetItemInfo(1).name);
-    }
+        UIManager.GetInstance().ShowPanel<MainPanel>("MainPanel");
 
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 }
