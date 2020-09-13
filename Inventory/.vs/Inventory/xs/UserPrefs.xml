@@ -1,13 +1,14 @@
 ﻿<Properties StartupConfiguration="{CE9B2838-BAA5-58C9-FABF-B8A8DCBCAB94}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Game/GameData/GameDataMgr.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Game/Main/MainPanel.cs">
     <Files>
       <File FileName="Assets/Scripts/Game/Main/Main.cs" Line="11" Column="11" />
       <File FileName="Assets/Scripts/Game/GameData/GameDataMgr.cs" Line="30" Column="21" />
+      <File FileName="Assets/Scripts/Game/Main/MainPanel.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="0ef412aa-ade6-4721-bdda-75da70a448b0" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="1d6f14f1-56a5-44fb-afee-39c9851055d8" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

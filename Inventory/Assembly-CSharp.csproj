@@ -68,6 +68,17 @@
     <Compile Include="Assets\Scripts\Game\GameData\GameDataMgr.cs" />
     <Compile Include="Assets\Scripts\Game\Main\Main.cs" />
     <Compile Include="Assets\Scripts\Game\Main\MainPanel.cs" />
+    <Compile Include="Assets\Scripts\ProjectBase\Base\BaseManager.cs" />
+    <Compile Include="Assets\Scripts\ProjectBase\Event\EventCenter.cs" />
+    <Compile Include="Assets\Scripts\ProjectBase\Input\InputMgr.cs" />
+    <Compile Include="Assets\Scripts\ProjectBase\Mono\MonoController.cs" />
+    <Compile Include="Assets\Scripts\ProjectBase\Mono\MonoMgr.cs" />
+    <Compile Include="Assets\Scripts\ProjectBase\Music\MusicMgr.cs" />
+    <Compile Include="Assets\Scripts\ProjectBase\Pool\PoolMgr.cs" />
+    <Compile Include="Assets\Scripts\ProjectBase\Res\ResMgr.cs" />
+    <Compile Include="Assets\Scripts\ProjectBase\Scenes\ScenesMgr.cs" />
+    <Compile Include="Assets\Scripts\ProjectBase\UI\BasePanel.cs" />
+    <Compile Include="Assets\Scripts\ProjectBase\UI\UIManager.cs" />
     <None Include="Assets\Resources\Json\itemInfo.txt" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>/Users/Magician/Documents/GitHub/小框架，小功能/Inventory/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
