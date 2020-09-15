@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using System.IO;
 
-public class GameDataMgr
+public class GameDataMgr:BaseManager<GameDataMgr>
 {
     //用来存储玩家信息文件的路径
     private static string playerInfo_url = Application.persistentDataPath + "/PlayerInfo.txt";
