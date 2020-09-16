@@ -13,9 +13,8 @@ public enum E_Bag_Type
 
 public class BagPanel : BasePanel
 {
-    List<ItemInfo> playerItemInfo = new List<ItemInfo>();
     public Transform content;
-
+    List<ItemCell> list = new List<ItemCell>();
 
     // Start is called before the first frame update
     void Start()
@@ -23,59 +22,60 @@ public class BagPanel : BasePanel
         GetUI<Button>("Close_Img").onClick.AddListener(() =>{
             UIManager.GetInstance().ClosePanel("BagPanel");
         });
-        //给这三个页签添加函数监听事件
-        GetUI<Toggle>("dg_img").onValueChanged.AddListener(OnValueChange);
-        GetUI<Toggle>("zb_img").onValueChanged.AddListener(OnValueChange);
-        GetUI<Toggle>("bs_img").onValueChanged.AddListener(OnValueChange);
 
-        ChangeType(E_Bag_Type.Item);
+        GetUI<Toggle>("dg_img").onValueChanged.AddListener(ToggleValueChange);
+        GetUI<Toggle>("zb_img").onValueChanged.AddListener(ToggleValueChange);
+        GetUI<Toggle>("bs_img").onValueChanged.AddListener(ToggleValueChange);
+
+
     }
 
-    void OnValueChange(bool value)
+    public  void ToggleValueChange(bool value)
     {
         if (GetUI<Toggle>("dg_img").isOn)
         {
             ChangeType(E_Bag_Type.Item);
+
         }else if (GetUI<Toggle>("zb_img").isOn)
         {
             ChangeType(E_Bag_Type.equip);
         }
-        else if (GetUI<Toggle>("bs_img").isOn)
+        else if (GetUI<Toggle>("bs_img"))
         {
             ChangeType(E_Bag_Type.Gem);
         }
     }
 
-    void ChangeType(E_Bag_Type type)
+    private void ChangeType(E_Bag_Type type)
     {
-        playerItemInfo = GameDataMgr.playerInfo.items;
+        List<ItemInfo> tempInfo = GameDataMgr.playerInfo.items;
         switch (type)
         {
-           
             case E_Bag_Type.equip:
-                playerItemInfo = GameDataMgr.playerInfo.equips;
+                tempInfo = GameDataMgr.playerInfo.equips;
                 break;
             case E_Bag_Type.Gem:
-                playerItemInfo = GameDataMgr.playerInfo.gems;
+                tempInfo = GameDataMgr.playerInfo.gems;
                 break;
-           
+
         }
-        //清空背包
-        playerItemInfo.Clear();
-        //循环遍历将对应物品添加到content下。
-        for(int i = 0; i < playerItemInfo.Count; i++)
+
+        for (int i = 0; i < list.Count; i++)
         {
-            GameObject cellobj = ResMgr.GetInstance().Load<GameObject>("UI/ItemCell");
-            ItemCell cell=cellobj.GetComponent<ItemCell>();
-            cell.InitItem(playerItemInfo[i]);
-            cell.transform.parent = content;
+            Destroy(list[i].gameObject);
         }
 
+        list.Clear();
+        for (int i = 0; i < tempInfo.Count; i++)
+        {
+            ItemCell cell = ResMgr.GetInstance().Load<GameObject>("UI/ItemCell").GetComponent<ItemCell>();
+            cell.transform.parent = content;
+            cell.InitItem(tempInfo[i]);
+            list.Add(cell);
+        }
     }
+    
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+
+    
 }

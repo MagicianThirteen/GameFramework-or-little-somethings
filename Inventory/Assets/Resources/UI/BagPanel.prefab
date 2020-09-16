@@ -351,7 +351,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 6287303332772304719}
   toggleTransition: 1
   graphic: {fileID: 0}
-  m_Group: {fileID: 0}
+  m_Group: {fileID: 1500430153}
   onValueChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -732,6 +732,7 @@ GameObject:
   - component: {fileID: 3782606645597642964}
   - component: {fileID: 2412893151211376657}
   - component: {fileID: 2581047621833087817}
+  - component: {fileID: 1500430153}
   m_Layer: 5
   m_Name: dg_img
   m_TagString: Untagged
@@ -838,13 +839,26 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2412893151211376657}
   toggleTransition: 1
   graphic: {fileID: 0}
-  m_Group: {fileID: 0}
+  m_Group: {fileID: 1500430153}
   onValueChanged:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: UnityEngine.UI.Toggle+ToggleEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
   m_IsOn: 0
+--- !u!114 &1500430153
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4508881371158028826}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1184210157, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_AllowSwitchOff: 0
 --- !u!1 &4791581741812691897
 GameObject:
   m_ObjectHideFlags: 0
@@ -896,6 +910,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73e7313c2977547e49003d4b32731f01, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  content: {fileID: 77298304736998340}
 --- !u!1 &6154368570156177188
 GameObject:
   m_ObjectHideFlags: 0
@@ -1406,13 +1421,13 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 7988909084100557124}
   toggleTransition: 1
   graphic: {fileID: 0}
-  m_Group: {fileID: 0}
+  m_Group: {fileID: 1500430153}
   onValueChanged:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: UnityEngine.UI.Toggle+ToggleEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
-  m_IsOn: 0
+  m_IsOn: 1
 --- !u!1 &7752369465089264412
 GameObject:
   m_ObjectHideFlags: 0

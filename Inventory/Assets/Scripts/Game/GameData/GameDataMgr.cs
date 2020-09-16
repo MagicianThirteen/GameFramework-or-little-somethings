@@ -35,7 +35,6 @@ public class GameDataMgr:BaseManager<GameDataMgr>
         Debug.Log(info);
         //根据json文件，解析成对应的数据结构，并存储
         Items items = JsonUtility.FromJson<Items>(info);
-        Debug.Log(items.info.Count);
         //将解析好的list添加进字典中
         for(int i = 0; i < items.info.Count; i++)
         {
@@ -49,8 +48,6 @@ public class GameDataMgr:BaseManager<GameDataMgr>
             byte[] bytes = File.ReadAllBytes(playerInfo_url);
             string json = System.Text.Encoding.UTF8.GetString(bytes);
             playerInfo = JsonUtility.FromJson<player>(json);
-            //测试有没有读对，打印下玩家名字
-            Debug.Log(playerInfo.name);
             
         }
         else
