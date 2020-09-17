@@ -11,8 +11,10 @@ public class ItemCell :BasePanel
     {
         this.itemInfo = info;
         Item itemData = GameDataMgr.GetInstance().GetItemInfo(info.id);
-        Debug.Log(itemData.icon + "***********");
-        GetUI<Image>("imgIcon").sprite = ResMgr.GetInstance().Load<Sprite>("Icon/" + itemData.icon);
+        Sprite icon= ResMgr.GetInstance().Load<Sprite>("Icon/" + itemData.icon);
+        GetUI<Image>("imgIcon").sprite = icon;
         GetUI<Text>("txtNum").text = info.num.ToString();
     }
+
+    
 }

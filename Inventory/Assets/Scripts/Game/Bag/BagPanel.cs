@@ -30,6 +30,12 @@ public class BagPanel : BasePanel
 
     }
 
+    public override void Show()
+    {
+        base.Show();
+        ChangeType(E_Bag_Type.Item);
+    }
+
     public  void ToggleValueChange(bool value)
     {
         if (GetUI<Toggle>("dg_img").isOn)
@@ -60,6 +66,7 @@ public class BagPanel : BasePanel
 
         }
 
+
         for (int i = 0; i < list.Count; i++)
         {
             Destroy(list[i].gameObject);
@@ -68,8 +75,12 @@ public class BagPanel : BasePanel
         list.Clear();
         for (int i = 0; i < tempInfo.Count; i++)
         {
-            ItemCell cell = ResMgr.GetInstance().Load<GameObject>("UI/ItemCell").GetComponent<ItemCell>();
-            cell.transform.parent = content;
+            GameObject itemCellObj = ResMgr.GetInstance().Load<GameObject>("UI/ItemCell");
+        
+            ItemCell cell = itemCellObj.GetComponent<ItemCell>();
+       
+            cell.transform.SetParent(content);
+     
             cell.InitItem(tempInfo[i]);
             list.Add(cell);
         }

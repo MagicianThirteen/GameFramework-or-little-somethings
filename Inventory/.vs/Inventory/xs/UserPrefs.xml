@@ -1,16 +1,18 @@
 ﻿<Properties StartupConfiguration="{CE9B2838-BAA5-58C9-FABF-B8A8DCBCAB94}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Game/Bag/ItemCell.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Resources/Json/itemInfo.txt">
     <Files>
-      <File FileName="Assets/Scripts/Game/Main/Main.cs" Line="11" Column="45" />
-      <File FileName="Assets/Scripts/Game/GameData/GameDataMgr.cs" Line="37" Column="57" />
+      <File FileName="Assets/Scripts/Game/Main/Main.cs" Line="10" Column="34" />
+      <File FileName="Assets/Scripts/Game/GameData/GameDataMgr.cs" Line="27" Column="8" />
       <File FileName="Assets/Scripts/Game/Main/MainPanel.cs" Line="12" Column="49" />
-      <File FileName="Assets/Scripts/Game/Bag/BagPanel.cs" Line="72" Column="17" />
-      <File FileName="Assets/Scripts/Game/Bag/ItemCell.cs" Line="14" Column="50" />
+      <File FileName="Assets/Scripts/Game/Bag/BagPanel.cs" Line="68" Column="1" />
+      <File FileName="Assets/Scripts/Game/Bag/ItemCell.cs" Line="19" Column="5" />
+      <File FileName="Assets/Scripts/ProjectBase/Res/ResMgr.cs" Line="18" Column="27" />
+      <File FileName="Assets/Resources/Json/itemInfo.txt" Line="29" Column="13" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="75b11ba3-10ee-4455-9992-2f95ba892653" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="f99e5e9e-013f-4d0b-8d3e-865fc83af987" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

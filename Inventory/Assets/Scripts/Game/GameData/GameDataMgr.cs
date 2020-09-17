@@ -12,19 +12,19 @@ public class GameDataMgr:BaseManager<GameDataMgr>
  
     //最终用字典存储items的信息
     private Dictionary<int, Item> itemInfos = new Dictionary<int, Item>();
-    private static GameDataMgr _instance;
-    public static GameDataMgr Instance
-    {
-        get
-        {
-            if (_instance == null)
-            {
-                _instance = new GameDataMgr();
+    //private static GameDataMgr _instance;
+    //public static GameDataMgr Instance
+    //{
+    //    get
+    //    {
+    //        if (_instance == null)
+    //        {
+    //            _instance = new GameDataMgr();
 
-            }
-            return _instance;
-        }
-    }
+    //        }
+    //        return _instance;
+    //    }
+    //}
 
     /// <summary>
     /// 初始化道具信息和玩家信息
@@ -32,7 +32,6 @@ public class GameDataMgr:BaseManager<GameDataMgr>
     public void Init()
     {
         string info = Resources.Load<TextAsset>("Json/itemInfo").text;
-        Debug.Log(info);
         //根据json文件，解析成对应的数据结构，并存储
         Items items = JsonUtility.FromJson<Items>(info);
         //将解析好的list添加进字典中
