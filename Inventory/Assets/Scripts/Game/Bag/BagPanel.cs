@@ -10,7 +10,9 @@ public enum E_Bag_Type
     Gem,
 }
 
-
+/// <summary>
+/// 背包脚本
+/// </summary>
 public class BagPanel : BasePanel
 {
     public Transform content;
@@ -35,7 +37,10 @@ public class BagPanel : BasePanel
         base.Show();
         ChangeType(E_Bag_Type.Item);
     }
-
+    /// <summary>
+    /// 根据点击不同的toggle，且换不同的数据
+    /// </summary>
+    /// <param name="value"></param>
     public  void ToggleValueChange(bool value)
     {
         if (GetUI<Toggle>("dg_img").isOn)
@@ -66,7 +71,7 @@ public class BagPanel : BasePanel
 
         }
 
-
+        //先销毁，再清空
         for (int i = 0; i < list.Count; i++)
         {
             Destroy(list[i].gameObject);
@@ -75,14 +80,15 @@ public class BagPanel : BasePanel
         list.Clear();
         for (int i = 0; i < tempInfo.Count; i++)
         {
-            GameObject itemCellObj = ResMgr.GetInstance().Load<GameObject>("UI/ItemCell");
+            GameObject itemCellObj = ResMgr.GetInstance().Load<GameObject>("UI/ItemCell");//获取实例化好的格子物体
         
-            ItemCell cell = itemCellObj.GetComponent<ItemCell>();
+            ItemCell cell = itemCellObj.GetComponent<ItemCell>();//获取格子上的脚本
        
-            cell.transform.SetParent(content);
+            cell.transform.SetParent(content);//设置父对象
+            cell.transform.localScale = new Vector3(1, 1, 1);//设置大小
      
-            cell.InitItem(tempInfo[i]);
-            list.Add(cell);
+            cell.InitItem(tempInfo[i]);//给格子数据初始化
+            list.Add(cell);//添加进list，方便下次显示
         }
     }
     

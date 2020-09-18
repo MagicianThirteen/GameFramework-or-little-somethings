@@ -66,6 +66,7 @@
     <Compile Include="Assets\FantasyIconsPackFree\Demo\IconViewer.cs" />
     <Compile Include="Assets\Scripts\Game\Bag\BagPanel.cs" />
     <Compile Include="Assets\Scripts\Game\Bag\ItemCell.cs" />
+    <Compile Include="Assets\Scripts\Game\Bag\TipsPanel.cs" />
     <Compile Include="Assets\Scripts\Game\GameData\GameDataMgr.cs" />
     <Compile Include="Assets\Scripts\Game\Main\Main.cs" />
     <Compile Include="Assets\Scripts\Game\Main\MainPanel.cs" />
