@@ -81,6 +81,7 @@
     <Compile Include="Assets\Scripts\ProjectBase\Scenes\ScenesMgr.cs" />
     <Compile Include="Assets\Scripts\ProjectBase\UI\BasePanel.cs" />
     <Compile Include="Assets\Scripts\ProjectBase\UI\UIManager.cs" />
+    <Compile Include="Assets\Scripts\TestSort.cs" />
     <None Include="Assets\Resources\Json\itemInfo.txt" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>/Users/Magician/Documents/GitHub/小框架，小功能/Inventory/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
