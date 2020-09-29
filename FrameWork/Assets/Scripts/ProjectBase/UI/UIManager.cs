@@ -24,6 +24,8 @@ public class UIManager : BaseManager<UIManager>
     private Transform mid;
     private Transform top;
     private Transform system;
+    //记录ui canvas对象，以防后面要用
+    public RectTransform canvas;
 
     //管理所有打开的面板
     public Dictionary<string, BasePanel> panelsDic = new Dictionary<string, BasePanel>();
@@ -32,7 +34,7 @@ public class UIManager : BaseManager<UIManager>
     {
         //加载找到canvas,EventSystem,让其过场景不被移除
         GameObject obj = ResMgr.GetInstance().Load<GameObject>("UI/Canvas");
-        canvas = obj.transform;
+        canvas = obj.transform as RectTransform;
         GameObject.DontDestroyOnLoad(obj);
 
         //找到各层
@@ -61,6 +63,7 @@ public class UIManager : BaseManager<UIManager>
                 panelsDic[panelName].Show();
                 if (callback != null)
                     callback(panelsDic[panelName] as T);
+                return;//因为已经加载过了。
             }
             
             //找到该面板对应的层级
