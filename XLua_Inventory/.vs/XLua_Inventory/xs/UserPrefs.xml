@@ -1,15 +1,16 @@
 ﻿<Properties StartupConfiguration="{5DB81B69-FC65-D3E0-47AD-225EC5DADFD8}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/XLua/Src/LuaEnv.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/CSharpCallLua/LuaEnvTest.cs">
     <Files>
       <File FileName="Assets/Scripts/CSharpCallLua/LuaEnvTest.cs" Line="15" Column="48" />
       <File FileName="Assets/Scripts/CSharpCallLua/LuaMgr.cs" Line="18" Column="27" />
       <File FileName="Assets/XLua/Src/LuaEnv.cs" Line="441" Column="1" />
       <File FileName="Assets/Scripts/CSharpCallLua/CallVariable.cs" Line="21" Column="1" />
+      <File FileName="Assets/Scripts/CSharpCallLua/CallFunction.cs" Line="4" Column="19" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="aa61030e-be4e-4f11-a3f0-bf5f3bb0bb9d" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="1a1d0769-1829-4bad-a611-133395408b8a" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

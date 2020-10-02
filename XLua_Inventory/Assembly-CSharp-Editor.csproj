@@ -682,6 +682,9 @@
     <Reference Include="Unity.CollabProxy.Editor">
       <HintPath>/Users/Magician/Documents/GitHub/小框架，小功能/XLua_Inventory/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.AssetBundleBrowser.Editor">
+      <HintPath>/Users/Magician/Documents/GitHub/小框架，小功能/XLua_Inventory/Library/ScriptAssemblies/Unity.AssetBundleBrowser.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Rider.Editor">
       <HintPath>/Users/Magician/Documents/GitHub/小框架，小功能/XLua_Inventory/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
@@ -699,9 +702,6 @@
     </Reference>
     <Reference Include="UnityEditor.UI">
       <HintPath>/Users/Magician/Documents/GitHub/小框架，小功能/XLua_Inventory/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.AssetBundleBrowser.Editor">
-      <HintPath>/Users/Magician/Documents/GitHub/小框架，小功能/XLua_Inventory/Library/ScriptAssemblies/Unity.AssetBundleBrowser.Editor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
