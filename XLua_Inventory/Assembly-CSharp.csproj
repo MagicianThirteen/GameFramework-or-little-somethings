@@ -64,7 +64,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\Base\BaseManager.cs" />
+    <Compile Include="Assets\Scripts\CSharpCallLua\CallClass.cs" />
     <Compile Include="Assets\Scripts\CSharpCallLua\CallFunction.cs" />
+    <Compile Include="Assets\Scripts\CSharpCallLua\CallInterface.cs" />
+    <Compile Include="Assets\Scripts\CSharpCallLua\CallListDic.cs" />
+    <Compile Include="Assets\Scripts\CSharpCallLua\CallLuaTable.cs" />
     <Compile Include="Assets\Scripts\CSharpCallLua\CallVariable.cs" />
     <Compile Include="Assets\Scripts\CSharpCallLua\LuaEnvTest.cs" />
     <Compile Include="Assets\Scripts\CSharpCallLua\LuaMgr.cs" />
@@ -87,6 +91,7 @@
     <Compile Include="Assets\XLua\Examples\ExampleGenConfig.cs" />
     <Compile Include="Assets\XLua\Gen\DelegatesGensBridge.cs" />
     <Compile Include="Assets\XLua\Gen\EnumWrap.cs" />
+    <Compile Include="Assets\XLua\Gen\ICallLuaClassBridge.cs" />
     <Compile Include="Assets\XLua\Gen\PackUnpack.cs" />
     <Compile Include="Assets\XLua\Gen\System_Collections_Generic_List_1_System_Int32_Wrap.cs" />
     <Compile Include="Assets\XLua\Gen\System_Collections_IEnumeratorBridge.cs" />
