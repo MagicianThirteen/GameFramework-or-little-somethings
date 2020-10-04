@@ -64,9 +64,7 @@ testClass={
 		-- body
 		print("nihaoyahahahahha")
 	end,
-	testInClass={
-		testInInt=13
-	}
+	
 
 }
 

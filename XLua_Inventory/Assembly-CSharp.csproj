@@ -72,6 +72,7 @@
     <Compile Include="Assets\Scripts\CSharpCallLua\CallVariable.cs" />
     <Compile Include="Assets\Scripts\CSharpCallLua\LuaEnvTest.cs" />
     <Compile Include="Assets\Scripts\CSharpCallLua\LuaMgr.cs" />
+    <Compile Include="Assets\Scripts\LuaCallCSharp\Main.cs" />
     <Compile Include="Assets\XLua\Examples\01_Helloworld\Helloworld.cs" />
     <Compile Include="Assets\XLua\Examples\02_U3DScripting\LuaBehaviour.cs" />
     <Compile Include="Assets\XLua\Examples\04_LuaObjectOrented\InvokeLua.cs" />
