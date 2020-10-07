@@ -1,34 +1,15 @@
 ﻿<Properties StartupConfiguration="{5DB81B69-FC65-D3E0-47AD-225EC5DADFD8}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/LuaCallCSharp/Main.cs">
+  <MonoDevelop.Ide.Workbench>
     <Files>
       <File FileName="Assets/Scripts/LuaCallCSharp/Main.cs" Line="14" Column="6" />
-      <File FileName="Assets/Scripts/CSharpCallLua/LuaMgr.cs" Line="27" Column="17" />
+      <File FileName="Assets/Scripts/CSharpCallLua/LuaMgr.cs" />
+      <File FileName="Assets/XLua/Src/LuaEnv.cs" Line="441" Column="1" />
+      <File FileName="Assets/Scripts/LuaCallCSharp/LuaCallCS.cs" Line="32" Column="30" />
     </Files>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State name="__root__">
-          <Node name="XLua_Inventory" expanded="True">
-            <Node name="Assets" expanded="True">
-              <Node name="Scripts" expanded="True">
-                <Node name="CSharpCallLua" expanded="True" />
-                <Node name="LuaCallCSharp" expanded="True">
-                  <Node name="Main.cs" selected="True" />
-                </Node>
-              </Node>
-            </Node>
-          </Node>
-        </State>
-      </Pad>
-      <Pad Id="MonoDevelop.UnitTesting.TestPad">
-        <State name="__root__">
-          <Node name="XLua_Inventory" expanded="True" selected="True" />
-        </State>
-      </Pad>
-    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="a4771373-e339-40c0-bdc2-b7b0b48f2156" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="789f940d-905c-402a-991b-3a3a672e24cd" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
