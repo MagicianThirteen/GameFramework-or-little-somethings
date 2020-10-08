@@ -1,10 +1,11 @@
 ﻿<Properties StartupConfiguration="{5DB81B69-FC65-D3E0-47AD-225EC5DADFD8}|">
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/XLua/Src/StaticLuaCallbacks.cs">
     <Files>
-      <File FileName="Assets/Scripts/LuaCallCSharp/Main.cs" Line="14" Column="6" />
+      <File FileName="Assets/Scripts/LuaCallCSharp/Main.cs" Line="6" Column="34" />
       <File FileName="Assets/Scripts/CSharpCallLua/LuaMgr.cs" />
       <File FileName="Assets/XLua/Src/LuaEnv.cs" Line="441" Column="1" />
-      <File FileName="Assets/Scripts/LuaCallCSharp/LuaCallCS.cs" Line="32" Column="30" />
+      <File FileName="Assets/Scripts/LuaCallCSharp/LuaCallCS.cs" Line="46" Column="9" />
+      <File FileName="Assets/XLua/Src/StaticLuaCallbacks.cs" Line="629" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />

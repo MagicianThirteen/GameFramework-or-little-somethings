@@ -39,6 +39,9 @@ t:Speak("t")
 
 --继承了Mono的类
 --继承了mono的类 是不能直接new，是通过gameobject对象来使用
+--通过gameObject的AddComponent添加脚本
+--xlua提供了一个重要方法 typeof 可以得到类的type
+--xlua中不支持 无参泛型函数 所以 我们要使用addcomponent另一个重载
 
 local obj5 = GameObject("加脚本测试")
 obj5:AddComponent(typeof(CS.LuaCallCS))

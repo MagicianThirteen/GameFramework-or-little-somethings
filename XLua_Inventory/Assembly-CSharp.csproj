@@ -98,6 +98,7 @@
     <Compile Include="Assets\XLua\Gen\System_Collections_Generic_List_1_System_Int32_Wrap.cs" />
     <Compile Include="Assets\XLua\Gen\System_Collections_IEnumeratorBridge.cs" />
     <Compile Include="Assets\XLua\Gen\System_ObjectWrap.cs" />
+    <Compile Include="Assets\XLua\Gen\ToolsWrap.cs" />
     <Compile Include="Assets\XLua\Gen\Tutorial_BaseClassWrap.cs" />
     <Compile Include="Assets\XLua\Gen\Tutorial_CSCallLua_ItfDBridge.cs" />
     <Compile Include="Assets\XLua\Gen\Tutorial_DerivedClassExtensionsWrap.cs" />
